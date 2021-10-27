@@ -1,0 +1,28 @@
+/*
+    Created by Nicholas Simon
+    nicholas_simon@student.uml.edu
+    Last updated: 10/26/2021
+*/
+body { 
+    font-family: "Courier New", Courier, monospace;
+    background-color:lightblue;
+    text-align:center;
+    font-size:200%;
+}
+table {
+    overflow: auto;
+    margin: 0 auto;
+    border: 1px;
+    width: 80%;
+    height: 80%;
+    background-color:white;
+}
+th:nth-child(1){
+    background-color:yellowgreen;
+}
+tr:nth-child(1){
+    background-color:yellowgreen;
+}
+input:invalid {
+    border: 2px solid red;
+  }
