@@ -1,7 +1,7 @@
 /*
     Created by Nicholas Simon
     nicholas_simon@student.uml.edu
-    Last updated: 10/26/2021
+    Last updated: 11/23/2021
 */
 body { 
     font-family: "Courier New", Courier, monospace;
@@ -23,6 +23,30 @@ th:nth-child(1){
 tr:nth-child(1){
     background-color:yellowgreen;
 }
-input:invalid {
-    border: 2px solid red;
-  }
+#xmax-error{
+    color:red;
+    display:block;
+}
+#xmin-error{
+    color:red;
+    display:block;
+}
+#ymax-error{
+    color:red;
+    display:block;
+}
+#ymin-error{
+    color:red;
+    display:block;
+}
+
+#xSlider{
+    width:50%;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+#ySlider{
+    width:50%;
+    margin:auto;
+}

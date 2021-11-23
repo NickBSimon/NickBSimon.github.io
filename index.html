@@ -2,31 +2,57 @@
 <!--
     Created by Nicholas Simon
     nicholas_simon@student.uml.edu
-    Last updated: 10/26/2021
+    Last updated: 11/22/2021
     COMP 4610 GUI I
     This program creates a multiplication table based on input from the user submitted through a form
  -->
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Multiplication Table</title>
-    <link href="style.css" rel="stylesheet">
-	
-  </head>
-  <body>
-    <form id = "form" onsubmit="return false;">
-        <label for="xmin">X-min:</label><br>
-        <input type="number" id="xmin"><br>
-        <label for="xmax">X-max:</label><br>
-        <input type="number" id="xmax"><br>
-        <label for="ymin">Y-min:</label><br>
-        <input type="number" id="ymin"><br>
-        <label for="ymax">Y-max:</label><br>
-        <input type="number" id="ymax"><br><br>
-        <input type="submit" onclick="createTable()"><br><br>   
-      </form>
-      <script src="script.js"></script>
-  </body>
-</html>
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>Multiplication Table</title>
+     <link href="style.css" rel="stylesheet">
+     <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+   </head>
+   <body>
+     <form id = "form" onsubmit="return false;">
+         <label for="xmin">X-min:</label><br>
+         <input name="xmin" type="number" id="xmin"><br>
+ 
+         <label for="xmax">X-max:</label><br>
+         <input name= "xmax" type="number" id="xmax"><br>
+ 
+         <label for="ymin">Y-min:</label><br>
+         <input name= "ymin" type="number" id="ymin"><br>
+ 
+         <label for="ymax">Y-max:</label><br>
+         <input name= "ymax" type="number" id="ymax"><br><br>
+         <div id="xSlider">
+         </div>
+         <div id="ySlider">
+         </div>
+         <input type="submit"><br>   
+       </form>
+       <form id = "removeTab" onsubmit="return false;">
+         <label for="tabInput">Index of tab to remove: </label>
+         <input name="tabInput" type="number" id="tabInput"><br>
+         <input type="submit">
+         or
+         <button type="button" id="removeTabs">Remove all tabs</button>
+       </form>
+       <div id="myTabs">
+           <ul></ul>
+       </div>
+ 
+       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+       <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.2/jquery.validate.js"></script>
+       <script
+   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+   crossorigin="anonymous"></script>
+       <script src="validation.js"></script>
+       <script src="script.js"></script>
+       <script src="slider.js"></script>
+   </body>
+ </html>
