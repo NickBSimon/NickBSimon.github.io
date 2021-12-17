@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A bit of scrabble</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+<div id="board" class = "ui-widget-header">
+    <div id="board1" class="normalSpace"></div>
+    <div id="board2" class="normalSpace"></div>
+    <div id="board3" class="doubleWordSpace"></div>
+    <div id="board4" class="normalSpace"></div>
+    <div id="board5" class="normalSpace"></div>
+    <div id="board6" class="normalSpace"></div>
+    <div id="board7" class="doubleLetterSpace"></div>
+    <div id="board8" class="normalSpace"></div>
+    <div id="board9" class="doubleLetterSpace"></div>
+    <div id="board10" class="normalSpace"></div>
+    <div id="board11" class="normalSpace"></div>
+    <div id="board12" class="normalSpace"></div>
+    <div id="board13" class="doubleWordSpace"></div>
+    <div id="board14" class="normalSpace"></div>
+    <div id="board15" class="normalSpace"></div>
+</div>
+
+<h1>Score: 0</h1>
+<h1 id = "word"></h1>
+
+<div id="tileRack">
+    <div id="rack1">
+        <div id="tile1"></div>
+    </div>
+
+    <div id="rack2">
+        <div id="tile2"></div>
+    </div>
+    <div id="rack3">
+        <div id="tile3"></div>
+    </div>
+
+    <div id="rack4">
+        <div id="tile4"></div>
+    </div>
+
+    <div id="rack5">
+        <div id="tile5"></div>
+    </div>
+
+    <div id="rack6">
+        <div id="tile6"></div>
+    </div>
+
+    <div id="rack7">
+        <div id="tile7"></div>
+    </div>
+</div>
+ 
+<button id="submit">Submit Word</button>
+<button id="newletters" onclick = "newLetters()">New Letters</button>
+<button id="reset" onclick = "reset()">Reset Game</button>
+
+ 
+ 
+</body>
+</html>

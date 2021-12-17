@@ -1,0 +1,170 @@
+body{
+    background-color:rgba(253, 203, 137, 0.562)
+}
+
+#tileRack {
+    width: 640px; 
+    height: 110px;
+    background-image: url('images/scrabble-tile-holder.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;;
+    margin: auto;
+}
+
+#board {
+    width: 1400px; 
+    height: 100px;
+    background-image: url('images/Scrabble_Board_OneLine.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin: auto;  
+    margin-bottom:50px;
+}
+
+#reset{
+    display:block;
+    margin:auto;
+    margin-top:10px;
+}
+
+#newletters{
+    display:block;
+    margin:auto;
+    margin-top:10px;
+}
+
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7{
+    width: 80px;
+    height:80px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    cursor:grab;
+    float:left;
+    margin-left:10px;
+    background-image: url('images/Scrabble_Tile_Blank.jpg');
+}
+
+#board1{
+    width:80px;
+    height:80px;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+}
+#board2{
+    width:80px;
+    height:80px;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+}
+#board3{
+    width:80px;
+    height:80px;
+    margin-left:15px;
+    margin-top:10px;
+    float:left;
+}
+#board4{
+    width:80px;
+    height:80px;
+    margin-left:12px;
+    margin-top:10px;
+    float:left;
+}
+#board5{
+    width:80px;
+    height:80px;
+    margin-left:12px;
+    margin-top:10px;
+    float:left;
+}
+#board6{
+    width:80px;
+    height:80px;
+    margin-left:12px;
+    margin-top:10px;
+    float:left;
+}
+#board7{
+    width:80px;
+    height:80px;
+    margin-left:12px;
+    margin-top:10px;
+    float:left;
+}
+#board8{
+    width:80px;
+    height:80px;
+    margin-left:12px;
+    margin-top:10px;
+    float:left;
+}
+#board9{
+    width:80px;
+    height:80px;
+    margin-left:12px;
+    margin-top:10px;
+    float:left;
+}
+#board10{
+    width:80px;
+    height:80px;
+    margin-left:14px;
+    margin-top:10px;
+    float:left;
+}
+#board11{
+    width:80px;
+    height:80px;
+    margin-left:14px;
+    margin-top:10px;
+    float:left;
+}
+#board12{
+    width:80px;
+    height:80px;
+    margin-left:14px;
+    margin-top:10px;
+    float:left;
+}
+#board13{
+    width:80px;
+    height:80px;
+    margin-left:14px;
+    margin-top:10px;
+    float:left;
+}
+#board14{
+    width:80px;
+    height:80px;
+    margin-left:14px;
+    margin-top:10px;
+    float:left;
+}
+#board15{
+    width:80px;
+    height:80px;
+    margin-left:14px;
+    margin-top:10px;
+    float:left;
+}
+h1{
+    text-align:center;
+}
+
+#submit{
+    display:block;
+    margin:auto;
+    margin-top:10px;
+}
+
+#rack1, #rack2, #rack3, #rack4, #rack5, #rack6, #rack7, #rack8, #rack9, #rack10, #rack11, #rack12, #rack15, #rack14, #rack15{
+    width: 80px;
+    height:80px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    cursor:grab;
+    float:left;
+    margin-left:10px;
+}
