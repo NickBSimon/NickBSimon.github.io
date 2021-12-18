@@ -31,43 +31,45 @@
     <div id="board15" class="normalSpace"></div>
 </div>
 
-<h1>Score: 0</h1>
+<h1 id = "score">Score: 0</h1>
 <h1 id = "word"></h1>
 
 <div id="tileRack">
     <div id="rack1">
-        <div id="tile1"></div>
+        <div id="tile1" data-board = 0></div>
     </div>
 
     <div id="rack2">
-        <div id="tile2"></div>
+        <div id="tile2"data-board = 0></div>
     </div>
     <div id="rack3">
-        <div id="tile3"></div>
+        <div id="tile3"data-board = 0></div>
     </div>
 
     <div id="rack4">
-        <div id="tile4"></div>
+        <div id="tile4"data-board = 0></div>
     </div>
 
     <div id="rack5">
-        <div id="tile5"></div>
+        <div id="tile5"data-board = 0></div>
     </div>
 
     <div id="rack6">
-        <div id="tile6"></div>
+        <div id="tile6"data-board = 0></div>
     </div>
 
     <div id="rack7">
-        <div id="tile7"></div>
+        <div id="tile7"data-board = 0></div>
     </div>
 </div>
  
-<button id="submit">Submit Word</button>
+<button id="submit" onclick = "submitWord()">Submit Word</button>
 <button id="newletters" onclick = "newLetters()">New Letters</button>
 <button id="reset" onclick = "reset()">Reset Game</button>
-
+<button id="debug" onclick = "debug()">Show Board State</button>
  
- 
+<h1 id = "currentBoardState"></h1>
+ <h1 id = "currentBoardValue"></h1>
+ <h1 id= "remainingTiles"></h1>
 </body>
 </html>

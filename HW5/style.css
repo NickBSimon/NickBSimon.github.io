@@ -168,3 +168,9 @@ h1{
     float:left;
     margin-left:10px;
 }
+
+#debug{
+    display:block;
+    margin:auto;
+    margin-top:10px;
+}
